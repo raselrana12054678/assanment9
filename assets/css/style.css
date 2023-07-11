@@ -1,0 +1,140 @@
+.header-area {
+    background: rgb(8, 209, 199);
+    padding: 10px 0;
+}
+.logo-area {
+    margin-top: -6px;
+}
+.menu-area {
+    padding-top: 9px;
+    text-align: right;
+    position: relative;
+}
+.menu-area li {
+    list-style: none;
+    display: inline-block;
+}
+.menu-area a {
+    text-decoration: none;
+    margin-right: 40px;
+    text-transform: capitalize;
+    color: #fff;
+    transition: .6s;
+    position: relative;
+}
+.menu-area a:after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -10px;
+    display: block;
+    position: absolute;
+    background-color: red;
+    transition: .6s;
+}
+.menu-area a:hover:after {
+    width: 100%;
+}
+.btn {
+    border: 1px solid rgb(211, 8, 171);
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: .6s;
+}
+.btn:hover {
+    background: rgb(4, 190, 207);
+    color: #fff;
+}
+.btn a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* banner-area  start css */
+.box-items {
+    background-color: rgb(201, 211, 213);
+    text-align: center;
+}
+.image-area {
+
+}
+.image-area img {
+    width: 30%;
+    margin: auto;
+    box-shadow: 13px 14px 8px -2px #e3cf1a; 
+}
+
+/* banner area end  */
+
+/* title-item  */
+.title-item h1 {
+    color: #fff;
+    font-size: 58px;
+    font-family: 'tahoma',sans-serif;
+    font-weight: 700;
+}
+.title-item h3 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'tahoma',sans-serif;
+    color: #0e0adf;
+}
+.title-item p {
+    color: #ddd;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'tahoma',sans-serif;
+}
+
+/* programing-hero */
+.programing {
+    background-color: #baba07;
+}
+.programing-hero h2 {
+    color: green;
+}
+.programing-hero h4 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'tahoma',sans-serif;
+    color: #e3cf1a;
+}
+.programing-hero h3 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'tahoma',sans-serif;
+    color: #fff;
+}
+
+/* image1 */
+.davitaper {
+    background-color: #10f555;
+    padding: 70px 0;
+}
+.davit-image {
+    text-align: center;
+
+}
+.image1 img {
+    width: 30%;
+    text-align: center;
+}
+.image2 {
+    margin-top: -97px;
+    margin-left: 199px;
+}
+.image2 img {
+    width: 25%;
+}
+
+/* footer-area  */
+.footer-area {
+    background: greenyellow;
+}
+.footer {
+    padding: 40px 0;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
